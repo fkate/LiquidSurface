@@ -18,7 +18,7 @@ Outputs a RenderTexture that can be plugged into custom materials as height map.
 ## Tips for Shader
 ![preview-mesh](preview-shader.gif) <br>
 The spring height map only handles up and down. <br>
-To also include vertex offset into other directions (and calcualte the normal map) you will need to look up it's pixel neighbours. <br>
+To also include vertex offset into other directions (and calculate the normal map) you will need to look up it's pixel neighbours. <br>
 Below is an example on how a shadergraph like that could look like. <br>
 ![preview-mesh](graph.png)
 <br>
