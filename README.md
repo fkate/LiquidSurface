@@ -29,3 +29,4 @@ Below is an example on how a shadergraph like that could look like. <br>
 - Too high values make the shader freak out (especially spread)
 - Could also be used for snow by turning spring forces way down
 - Keep in mind each surface has it's own rendertarget and calculations so use sparingly
+- This setup only works on newer Unity versions since it uses the newer Mesh API which was introduced in Unity 2020
